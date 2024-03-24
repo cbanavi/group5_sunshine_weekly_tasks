@@ -1,4 +1,4 @@
-package week1;
+package week1_template;
 
 public class finra {
     public static void main(String[] args) {

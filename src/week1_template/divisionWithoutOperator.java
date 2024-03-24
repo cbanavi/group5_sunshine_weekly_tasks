@@ -1,4 +1,4 @@
-package week1;
+package week1_template;
 
 public class divisionWithoutOperator {
     public static void main(String[] args) {
