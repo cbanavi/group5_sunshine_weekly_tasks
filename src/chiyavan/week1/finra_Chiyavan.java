@@ -1,4 +1,4 @@
-package chiyavan;
+package chiyavan.week1;
 
 public class finra_Chiyavan {
     public static void main(String[] args) {
