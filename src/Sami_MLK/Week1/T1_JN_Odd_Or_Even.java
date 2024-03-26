@@ -1,4 +1,4 @@
-package JenTasks.week1;
+package Sami_MLK.Week1;
 
 public class T1_JN_Odd_Or_Even {
     public static void main(String[] args) {

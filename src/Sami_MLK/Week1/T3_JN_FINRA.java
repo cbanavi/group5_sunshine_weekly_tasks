@@ -1,7 +1,4 @@
-package JenTasks.week1;
-
-import java.util.ArrayList;
-import java.util.List;
+package Sami_MLK.Week1;
 
 public class T3_JN_FINRA {
     public static void main(String[] args) {

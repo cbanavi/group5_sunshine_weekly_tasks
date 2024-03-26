@@ -1,4 +1,4 @@
-package JenTasks.week1;
+package Sami_MLK.Week1;
 
 public class T2_JN_Division_Without_Operator {
     public static void main(String[] args) {
