@@ -2,21 +2,30 @@ package Sami_MLK.Week1;
 
 public class T1_JN_Odd_Or_Even {
     public static void main(String[] args) {
-        oddOrEven(9);
+        //Write a method that can divide two numbers without using division operator
+
+        System.out.println(divide(20, 5));
+
     }
 
-    private static void oddOrEven(int n) {
-        if(n%2==0){
-            System.out.println("The "+n+" is an even number");
-        }else {
-            System.out.println("The "+n+" is an odd number");
-        }
+public static double divide(double a, double b) {
+    double result = 0;
+
+    while (a >= b) {
+        a -= b;
+        result++;
     }
+    return result;
 }
-/*
-1. Numbers -- odd & even
-Write a method which can identify given number is even or odd
-Ex: identify(5) -> "Odd"
-    identify(6) -> "Even"
- */
+    }
+
+   // This implementation uses a while loop to repeatedly subtract b from a until a is less
+  //than or equal to b. The loop increments result each time this happens.
+
+
+
+
+
+
+
 
