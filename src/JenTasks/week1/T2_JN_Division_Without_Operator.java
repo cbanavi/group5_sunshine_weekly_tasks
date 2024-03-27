@@ -35,11 +35,11 @@ Write a method that can divide two numbers without using division '/' operator
         //we are flipping signs from negative # into positive # so it's suitable for negative #s as well
         double sign = 1;
         if (x < 0) {
-            sign *= -sign;
+            sign = -sign;
             x = -x;
         }
         if (y < 0) {
-            sign *= -sign;
+            sign = -sign;
             y = -y;//same logic
         }
         return sign * result;
