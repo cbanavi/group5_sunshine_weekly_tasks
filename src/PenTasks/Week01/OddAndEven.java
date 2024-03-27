@@ -1,6 +1,6 @@
 package PenTasks.Week01;
 
-public class Odd_And_Even {
+public class OddAndEven {
     public static void main(String[] args) {
         oddEven(6);
     }

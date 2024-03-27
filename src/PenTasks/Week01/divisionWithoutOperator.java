@@ -1,9 +1,9 @@
 package PenTasks.Week01;
 
-public class division_Without_Operator {
+public class divisionWithoutOperator {
 
         public static void main(String[] args) {
- divide(13,5);
+ divide(15,5);
 
         }
 
@@ -20,9 +20,13 @@ public class division_Without_Operator {
                 quotient++;
             }
             // for handling negative numbers :
-          //  int coefficient = 1;
-          //  if (divisor<0 || dividend<0){
-               // coefficient = -1;}
+           // int coefficient = 1;
+           // if ((divisor < 0 && dividend >= 0) || (divisor >= 0 && dividend < 0)) {
+
+                // if (divisor<0 ^ dividend<0){
+               //coefficient = -1;}
+           // dividend = Math.abs(dividend);
+            // divisor = Math.abs(divisor);
 
             System.out.println("the remainder is : " + remainder);
             System.out.println("The quotient is : " + quotient);

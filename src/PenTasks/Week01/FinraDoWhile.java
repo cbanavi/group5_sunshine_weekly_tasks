@@ -1,6 +1,6 @@
 package PenTasks.Week01;
 
-public class Finra_Do_While {
+public class FinraDoWhile {
 
     public static void main(String[] args) {
 printFinra(30,1);
