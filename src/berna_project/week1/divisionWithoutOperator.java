@@ -6,7 +6,6 @@ public class divisionWithoutOperator {
 
         int result = customOperator(20, -5);
         System.out.println(result);
-
     }
 
     public static int customOperator(int dividend, int divisor) {
