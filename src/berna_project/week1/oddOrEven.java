@@ -4,11 +4,11 @@ public class oddOrEven {
     public static void main(String[] args) {
 
         int n= 12345;
-        evenOrOdd(n);
+        evenOrOddNums(n);
 
     }
 
-    private static int evenOrOdd (int n){
+    private static int evenOrOddNums (int n){
 
 
         if (n %2 == 0){

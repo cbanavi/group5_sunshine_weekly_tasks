@@ -9,10 +9,10 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 public class finra {
     public static void main(String[] args) {
 
-        multipleOfTree();
+        multipleOfTreeMethod();
     }
 
-    private static void multipleOfTree(){
+    private static void multipleOfTreeMethod(){
 
         for (int i = 1; i <= 30; i++) {
             if ((i % 15 == 0)){
