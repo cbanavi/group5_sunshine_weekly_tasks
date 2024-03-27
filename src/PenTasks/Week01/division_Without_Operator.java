@@ -3,7 +3,7 @@ package PenTasks.Week01;
 public class division_Without_Operator {
 
         public static void main(String[] args) {
- divide(13,-5);
+ divide(13,5);
 
         }
 
