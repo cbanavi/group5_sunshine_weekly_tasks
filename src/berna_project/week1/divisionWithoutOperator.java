@@ -17,7 +17,6 @@ public class divisionWithoutOperator {
             return -customOperator(dividend, -divisor);
         }
 
-
         int quotient = 0;
 
         while (dividend >= divisor) {

@@ -6,7 +6,6 @@ public class oddOrEven {
         int n= 12345;
         evenOrOdd(n);
 
-
     }
 
     private static int evenOrOdd (int n){
