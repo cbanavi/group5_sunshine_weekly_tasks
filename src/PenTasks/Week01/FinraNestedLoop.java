@@ -8,7 +8,7 @@ printFinra(30);
 public static void printFinra(int givenNum){
         for (int i = 1; i <= givenNum; i++) {
             //for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
-            if (i%3==0 && (i&5)==0) {
+            if (i%3==0 && i%5==0) {
                 System.out.print("FINRA ");
                 //print "FIN" instead of the number for numbers which are a multiple of 3
             } else if (i%3==0) {
