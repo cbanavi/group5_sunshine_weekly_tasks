@@ -11,9 +11,9 @@ public class DivisionWithoutOperator_faranak {
         if (n1 == 0 || n2 == 0){
             throw new ArithmeticException("Number can not be divided by zero");
         }
-        if (n1 < 0 || n2 < 0){
-            throw new ArithmeticException("Number can not be negative");
-
+        // for negative numbers
+        if (n2 < 0){
+            return -dividingWithOutOperator(n1, -n2);
         }
         int quotient = 0;
 
@@ -25,5 +25,10 @@ public class DivisionWithoutOperator_faranak {
         return quotient;
 
     }
-}
+
+
+
+    }
+
+
 // Create a method that divide two numbers without operator
