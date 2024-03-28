@@ -5,11 +5,13 @@ package Sami.Week1;
     public class divisionWithoutOperator {
 
         public static void main(String[] args) {
-
             System.out.println(divide(-20, 5));
         }
 
         public static double divide(double a, double b) {
+            if (b == 0) {
+                throw new IllegalArgumentException("Cannot divide by zero");
+            }
 
             int sign = 1;
             if (a < 0) {
@@ -27,7 +29,6 @@ package Sami.Week1;
                 a -= b;
                 result++;
             }
-
 
             return sign * result;
         }
