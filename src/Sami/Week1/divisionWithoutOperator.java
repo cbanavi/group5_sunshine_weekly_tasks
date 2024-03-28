@@ -1,0 +1,34 @@
+package Sami.Week1;
+
+
+
+    public class divisionWithoutOperator {
+
+        public static void main(String[] args) {
+
+            System.out.println(divide(-20, 5));
+        }
+
+        public static double divide(double a, double b) {
+
+            int sign = 1;
+            if (a < 0) {
+                a = -a;
+                sign = -sign;
+            }
+            if (b < 0) {
+                b = -b;
+                sign = -sign;
+            }
+
+            double result = 0;
+
+            while (a >= b) {
+                a -= b;
+                result++;
+            }
+
+
+            return sign * result;
+        }
+    }
