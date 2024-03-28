@@ -5,7 +5,8 @@ package Sami.Week1;
     public class divisionWithoutOperator {
 
         public static void main(String[] args) {
-            System.out.println(divide(-20, 5));
+
+            System.out.println(divide(0, 0));
         }
 
         public static double divide(double a, double b) {
