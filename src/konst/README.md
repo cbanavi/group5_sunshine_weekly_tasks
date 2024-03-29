@@ -1,4 +1,4 @@
-# JAVA SDET WINTER 2023
+# JAVA SDET WINTER 2023 @ Konst
 ### Week 1
 [divisionWithoutOperator](week1/divisionWithoutOperator.java) - method that can divide two numbers without using division operator  
 [finra](week1/finra.java) - method plays a modified counting game, replacing multiples of 3 with "FIN", multiples of 5 with "RA", and multiples of both with "FINRA"  

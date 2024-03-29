@@ -1,4 +1,5 @@
-# Setting up Github project:
+# JAVA SDET WINTER 2023
+## Setting up Github project:
 Team  members should clone the project from the GitHub repository  
 Everyone should create his/her own branch in IntelliJ and work on it to avoid Git conflicts.  
 Use your name as the branch name.
