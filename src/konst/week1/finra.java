@@ -5,7 +5,7 @@ For numbers which are a multiple of both 3 and 5, print "FINRA" instead of the n
 
 package konst.week1;
 
-public class finra_konst {
+public class finra {
     public static void finra() {
         for (int i = 1; i <= 30; i++) {
             String output = "";
