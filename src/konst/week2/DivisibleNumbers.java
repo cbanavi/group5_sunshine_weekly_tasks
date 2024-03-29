@@ -12,7 +12,7 @@ ex:
 */
 package konst.week2;
 
-public class divisibleNumbers {
+public class DivisibleNumbers {
     public static void main(String[] args) {
         System.out.println("Divisible By 15");
         printDivisibleBy(15);

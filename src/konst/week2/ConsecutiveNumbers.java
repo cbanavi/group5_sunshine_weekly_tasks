@@ -28,7 +28,7 @@ Codility
 */
 package konst.week2;
 
-public class consecutiveNumbers {
+public class ConsecutiveNumbers {
 
     public static void main(String[] args) {
         int N = 32;

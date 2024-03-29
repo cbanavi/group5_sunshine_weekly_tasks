@@ -5,7 +5,7 @@ Swap two variable' values without using a third variable
 package konst.week2;
 
 
-public class swapNumbers {
+public class SwapNumbers {
     public static void main(String[] args) {
         int x = 10;
         int y = 20;

@@ -5,6 +5,6 @@
 [oddOrEven](week1/oddOrEven.java) - method which can identifies given number is even or odd 
 
 ### Week 2
-[consecutiveNumbers](week2/consecutiveNumbers.java) - prints numbers from 1 to N, replacing multiples of 2 with "Codility", multiples of 3 with "Test", multiples of 5 with "Coders", and combining these words for multiples of more than one divisor.  
-[divisibleNumbers](week2/divisibleNumbers.java) - prints numbers from 1 to 100, categorizing them into sections: "DivisibleBy15" (divisible by 3, 5, and 15), "DivisibleBy3" (divisible by 3 only), and "DivisibleBy5" (divisible by 5 only).  
-[swapNumbers](week2/swapNumbers.java) - swaps the values of two variables without the need for an additional temporary variable 
+[ConsecutiveNumbers](week2/ConsecutiveNumbers.java) - prints numbers from 1 to N, replacing multiples of 2 with "Codility", multiples of 3 with "Test", multiples of 5 with "Coders", and combining these words for multiples of more than one divisor.  
+[DivisibleNumbers](week2/DivisibleNumbers.java) - prints numbers from 1 to 100, categorizing them into sections: "DivisibleBy15" (divisible by 3, 5, and 15), "DivisibleBy3" (divisible by 3 only), and "DivisibleBy5" (divisible by 5 only).  
+[SwapNumbers](week2/SwapNumbers.java) - swaps the values of two variables without the need for an additional temporary variable 
