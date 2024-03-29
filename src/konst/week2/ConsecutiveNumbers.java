@@ -31,8 +31,7 @@ package konst.week2;
 public class ConsecutiveNumbers {
 
     public static void main(String[] args) {
-        int N = 32;
-        printConsecutive(N);
+        printConsecutive(32);
     }
 
     public static void printConsecutive(int N) {
