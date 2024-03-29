@@ -6,16 +6,16 @@ For numbers which are a multiple of both 3 and 5, print "FINRA" instead of the n
 package konst.week1;
 
 public class finra {
-    public static void finra() {
+    public static void main(String[] args) {
+        printFinra();
+    }
+    public static void printFinra() {
         for (int i = 1; i <= 30; i++) {
             String output = "";
             if (i % 3 == 0) output += "FIN";
             if (i % 5 == 0) output += "RA";
             System.out.println(output.isEmpty() ? i : output);
         }
-    }
-    public static void main(String[] args) {
-        finra();
     }
 }
 
