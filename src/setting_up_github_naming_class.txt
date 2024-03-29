@@ -16,6 +16,9 @@ Git-Github Flow Reminder:
 2- First make sure you are on your own local branch. (If this is your first time and if you don’t have a local branch, first create your own local branch from the master branch and checkout to it.)
 3- Right-click local master-> click Update (without checking out to the master branch itself)     📌
 4- Right click local master -> click "Merge master into "your own branch""
+5- Create package under src and name it as yourname
+    5.1- Create a subpackage under yourname package (ex. chiyavan).
+    5.2- Either copy and paste your classes from that weeks template package or create classes yourself for that weeks tasks
 5- Start writing your codes.
 6- Commit your changes
 7- Once you are done with your all job, follow steps "3 and 4 again"📌 🚨 📌 🚨
