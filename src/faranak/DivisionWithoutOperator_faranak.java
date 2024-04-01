@@ -1,23 +1,48 @@
 package faranak;
 
+import java.util.Scanner;
+
 public class DivisionWithoutOperator_faranak {
 
     public static void main(String[] args) {
 
-        division(10, 2);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter first number");
+        int a = input.nextInt();
+        System.out.println("Enter second number");
+        int b = input.nextInt();
+        System.out.println(a + " / " + b + " = " + division(a, b));
+        input.close();
     }
 
-    public static void division(int a, int b) {
+    public static int division(int a, int b) {
 
         if (b == 0) {
-            throw new ArithmeticException("cannot divide by zero");
+            throw new IllegalArgumentException("Cannot divide by zero");
         }
-        System.out.println(Math.floorDiv(a, b));
+        if(b < 0) {
+            return -division(a, -b);
+        }
+
+        int result = 0;
+
+        while (a >= b) {
+            a = a - b;
+            result = result + 1;
+
+
+        }
+        return result;
+
 
 
     }
 
-}
+
+
+    }
+
+
 
 
 
