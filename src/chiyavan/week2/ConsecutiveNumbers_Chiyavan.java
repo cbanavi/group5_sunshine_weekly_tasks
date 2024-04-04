@@ -19,7 +19,7 @@ public class ConsecutiveNumbers_Chiyavan {
                 result.append("Test");
             }
 
-            if (i % 2 == 0) {
+            if (i % 5 == 0) {
                 result.append("Coders");
             }
 

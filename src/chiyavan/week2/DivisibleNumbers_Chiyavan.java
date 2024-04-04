@@ -19,11 +19,11 @@ public class DivisibleNumbers_Chiyavan {
                 divisibleBy15.append(i + " ");
             }
 
-            if (i % 5 == 0) {
+            if (i % 5 == 0 && i % 15 != 0) {
                 divisibleBy5.append(i + " ");
             }
 
-            if (i % 3 == 0) {
+            if (i % 3 == 0 && i % 15 != 0) {
                 divisibleBy3.append(i + " ");
             }
 
