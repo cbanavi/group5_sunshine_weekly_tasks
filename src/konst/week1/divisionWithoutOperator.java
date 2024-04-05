@@ -1,7 +1,10 @@
 /* Write a method that can divide two numbers without using division operator */
 package konst.week1;
 
-public class divisionWithoutOperator_konst {
+public class divisionWithoutOperator {
+    public static void main(String[] args) {
+        System.out.println(divide(10, -5));
+    }
     public static int divide(int dividend, int divisor) {
         if (divisor == 0) {
             throw new IllegalArgumentException("Cannot divide by zero");
@@ -20,9 +23,4 @@ public class divisionWithoutOperator_konst {
 
         return sign * quotient; // Apply the calculated sign
     }
-
-    public static void main(String[] args) {
-        System.out.println(divide(10, -5));
-    }
-
 }
