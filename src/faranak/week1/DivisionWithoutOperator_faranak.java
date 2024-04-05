@@ -1,4 +1,4 @@
-package faranak;
+package faranak.week1;
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class DivisionWithoutOperator_faranak {
         if (b == 0) {
             throw new IllegalArgumentException("Cannot divide by zero");
         }
-        if(b < 0) {
+        if (b < 0) {
             return -division(a, -b);
         }
 
@@ -35,16 +35,10 @@ public class DivisionWithoutOperator_faranak {
         return result;
 
 
-
     }
 
 
-
-    }
-
-
-
-
+}
 
 
 // Create a method that divide two numbers without operator
