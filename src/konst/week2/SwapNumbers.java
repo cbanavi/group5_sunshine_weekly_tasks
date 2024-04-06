@@ -12,7 +12,7 @@ public class SwapNumbers {
         System.out.println("Before swap: x = " + x + ", y = " + y);  // Print the values before swapping
 
         // Swapping logic:
-        x = x + y;   // Calculate the sum of x and y, store it in x
+        x = x + y;  // Calculate the sum of x and y, store it in x
         y = x - y;  // Subtract the original value of y from x (the sum), store result in y (effectively the old x)
         x = x - y;  // Subtract the new value of y (the old x) from x (the sum), store result in x (effectively the old y)
 
