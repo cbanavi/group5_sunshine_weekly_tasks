@@ -7,8 +7,6 @@ Use your name as the branch name.
 ### Naming conventions for classes:
 Create package under src folder and name it after you (ex.Chiyavan).  
 Then create a subpackage under your folder called week1_template or whatever the appropriate week is.  
-Then create your classes for the week under your subpackage (ex. finra_Chiyavan).  
-You can see Chiyavan's branch as an example.
 
 For naming convention; after the "classname" (the classname might have the related week's java task name or something else)
 you may use your name initials or etc.  
