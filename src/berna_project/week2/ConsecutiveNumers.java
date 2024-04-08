@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class ConsecutiveNumers {
     public static void main(String[] args) {
 
-        int n=24;
-        consecutiveNumbers(n);
+
+        consecutiveNumbers(24);
     }
 
 
