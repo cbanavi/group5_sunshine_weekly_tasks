@@ -2,9 +2,20 @@
 ### Week 1
 [divisionWithoutOperator](week1/divisionWithoutOperator.java) - method that can divide two numbers without using division operator  
 [finra](week1/finra.java) - method plays a modified counting game, replacing multiples of 3 with "FIN", multiples of 5 with "RA", and multiples of both with "FINRA"  
-[oddOrEven](week1/oddOrEven.java) - method which can identifies given number is even or odd 
+[oddOrEven](week1/oddOrEven.java) - method which can identifies given number is even or odd  
 
 ### Week 2
 [ConsecutiveNumbers](week2/ConsecutiveNumbers.java) - prints numbers from 1 to N, replacing multiples of 2 with "Codility", multiples of 3 with "Test", multiples of 5 with "Coders", and combining these words for multiples of more than one divisor.  
 [DivisibleNumbers](week2/DivisibleNumbers.java) - prints numbers from 1 to 100, categorizing them into sections: "DivisibleBy15" (divisible by 3, 5, and 15), "DivisibleBy3" (divisible by 3 only), and "DivisibleBy5" (divisible by 5 only).  
-[SwapNumbers](week2/SwapNumbers.java) - swaps the values of two variables without the need for an additional temporary variable 
+[SwapNumbers](week2/SwapNumbers.java) - swaps the values of two variables without the need for an additional temporary variable  
+
+### Week 3
+[ArmstrongNumbers](week3/ArmstrongNumbers.java) - method that can check if a number is Armstrong number.  
+[PrimeNumber](week3/PrimeNumber.java) - method that can check if a number is prime or not.  
+[ReverseNegativeNumbers](week3/ReverseNegativeNumbers.java) - method that can reverse negative number and return it as int.  
+
+### Week 4
+[FrequencyOfCharacters](week4/FrequencyOfCharacters.java) - method that can find the frequency of characters.  
+[RemoveDuplicates](week4/RemoveDuplicates.java) - method that can remove the duplicated values from String.  
+[SameLetters](week4/SameLetters.java) - method that check if a string is build out of the same letters as another string.  
+
