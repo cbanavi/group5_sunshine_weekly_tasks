@@ -1,29 +1,43 @@
 package faranak.week03;
 
+import java.util.Scanner;
+
 public class ArmstrongNumbers {
 
     public static void main(String[] args) {
-        int number = 153;
-        System.out.println(isArmstrong(number));
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num = input.nextInt();
+        input.close();
+
+        System.out.println(num + " is an Armstrong number? : " + ArmstrongNumberUsingWhile(num));
 
     }
-    public static boolean isArmstrong(int number) {
+    public static boolean ArmstrongNumberUsingWhile(int num) {
+
+        // Initialize a variable temp to the value of input num
+        int temp = num;
         int sum = 0;
-        int temp = number;
+
+        // find the length of the input number
+        int length = String.valueOf(num).length();
+
+        //Loop until temp is greater than 0
         while (temp > 0) {
-            int digit = temp % 10;
-            sum += digit * digit * digit;
+            // Obtain the last digit
+            int lastDigit = temp % 10;
+
+            // add the cube of the last digit to sum
+            sum += (int) Math.pow(lastDigit, length);
+
+            // remove the last digit
             temp /= 10;
         }
-        return sum == number;
+        // Check if the sum of cubes of digits is equal to the original number
+        return sum == num;
     }
 }
 
-/*
-Write a method that can check if a number is
-Armstrong number
 
-Armstrong number - An Armstrong number of three digits is an integer
-such that the sum of the cubes of its digits is equal to the number itself.
-For example, 371 is an Armstrong number since 3*3*3 + 7*7*7 + 1*1*1 = 371.
- */
+
