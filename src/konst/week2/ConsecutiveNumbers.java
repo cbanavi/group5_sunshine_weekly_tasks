@@ -31,20 +31,25 @@ package konst.week2;
 public class ConsecutiveNumbers {
 
     public static void main(String[] args) {
-        printConsecutive(32);
+        printConsecutive(32);  // Example call to print numbers up to 32
     }
 
     public static void printConsecutive(int N) {
+        // Loop to iterate over numbers from 1 to N
         for (int i = 1; i <= N; i++) {
-            StringBuilder output = new StringBuilder();
+            StringBuilder output = new StringBuilder(); // Create a StringBuilder for efficiency
 
+            // Check if divisible by 2, append "Codility" if true
             if (i % 2 == 0) output.append("Codility");
+
+            // Check if divisible by 3, append "Test" if true
             if (i % 3 == 0) output.append("Test");
+
+            // Check if divisible by 5, append "Coders" if true
             if (i % 5 == 0) output.append("Coders");
 
+            // If the output StringBuilder has content, print it; otherwise, print the number
             System.out.println(!output.isEmpty() ? output.toString() : i);
         }
     }
 }
-
-
