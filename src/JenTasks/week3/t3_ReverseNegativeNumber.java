@@ -14,6 +14,7 @@ public class t3_ReverseNegativeNumber {
 
     public static void main(String[] args) {
         int[] negatives = {-1, -259, -7821, -8912};
+
         for (int each : negatives) {
             System.out.println(reverseNegative(each));
         }
