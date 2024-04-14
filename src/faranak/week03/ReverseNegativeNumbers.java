@@ -3,19 +3,18 @@ package faranak.week03;
 public class ReverseNegativeNumbers {
 
     public static void main(String[] args) {
-        int n = -123;
-        System.out.println(reverse(n));
+        int num = -123;
+        System.out.println(num + " is " + reverseNegativeNum(num));
     }
-    public static int reverse(int n) {
+    public static int reverseNegativeNum(int num) {
 
-        int temp = 0;
-         while (n!= 0) {                      //loops through each digit
-             temp = temp * 10 + n % 10;      //adds the current digit to the left of the temp variable
-             n /= 10;                       //removes the last digit
+        int reverse = 0;
+         while (num!= 0) {
+             int lastDigit = num % 10;
+             reverse = reverse * 10 + lastDigit;   //adds the current digit to the left of the temp variable
+             num /= 10;                            //removes the last digit
         }
-         return temp;
-
-
+         return reverse;
     }
 }
 
