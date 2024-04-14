@@ -12,7 +12,7 @@ public class t3_ReverseNegativeNumber {
             //-11%10=-1.1; -1 is a remainder; -1%10= -0.1; -1 is the last remainder
             result = result * 10 + remainder;//append to the result ex: 0*10+(-2)=-2
             //-2*10+(-2)=-20+(-1)=-21 // -21*10(-1)=-210+(-1)=-211;
-            n /= 10; // -112/10=11; //-11/10=-1 //-1/10=0
+            n /= 10; // Decrement n by dividing it by 10: -112/10=11; //-11/10=-1 //-1/10=0
 
         }
         return result;
