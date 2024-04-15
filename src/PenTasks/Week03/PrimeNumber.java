@@ -3,14 +3,14 @@ package PenTasks.Week03;
 public class PrimeNumber {
 
     public static void main(String[] args) {
-        primeFinder(5);
+        System.out.println(primeFinder(5));
     }
 
     public static boolean primeFinder(int num) {
         if (num <= 1) {
             System.out.println("Please choose a number greater than 1!");
             return false;
-        } else if (num % num == 1) {
+        } else if (num % num == 0) {
             System.out.print(num + " is a prime number.");
             return true;
         } else {
