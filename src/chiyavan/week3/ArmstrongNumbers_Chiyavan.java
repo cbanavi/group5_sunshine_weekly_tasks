@@ -16,7 +16,7 @@ public class ArmstrongNumbers_Chiyavan {
 
         int digit, remainder, result = 0;
 
-        originalNumber = n;
+        digit = n;
 
         while (digit != 0) {
             remainder = digit % 10;
