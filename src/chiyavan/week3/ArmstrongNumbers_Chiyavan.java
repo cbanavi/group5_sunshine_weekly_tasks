@@ -14,14 +14,14 @@ public class ArmstrongNumbers_Chiyavan {
             throw new RuntimeException("HAS TO BE 3 DIGITS");
         }
 
-        int originalNumber, remainder, result = 0;
+        int digit, remainder, result = 0;
 
         originalNumber = n;
 
-        while (originalNumber != 0) {
-            remainder = originalNumber % 10;
+        while (digit != 0) {
+            remainder = digit % 10;
             result += remainder * remainder * remainder;
-            originalNumber /= 10;
+            digit /= 10;
         }
 
         if (result == n) {
