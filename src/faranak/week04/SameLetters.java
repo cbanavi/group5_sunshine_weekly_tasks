@@ -8,7 +8,7 @@ public class SameLetters {
 
     public static void main(String[] args) {
         String word1 = "abc";
-        String word2 = "cab";
+        String word2 = "acb";
         System.out.println(isSameLetters(word1, word2));
     }
     public static boolean isSameLetters(String word1, String word2) {

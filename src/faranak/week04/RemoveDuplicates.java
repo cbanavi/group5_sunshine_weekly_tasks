@@ -8,7 +8,7 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-       String input = new String("AAABBBCCC");
+       String input = new String("AAABBBCCCC");
        System.out.println(removeDup(input));
     }
     public static String removeDup(String input) {
