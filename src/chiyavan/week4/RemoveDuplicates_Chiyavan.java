@@ -21,7 +21,8 @@ public class RemoveDuplicates_Chiyavan {
                 noDuplicates.add(each);                             // Add to ArrayList
             }
         }
-        System.out.println(noDuplicates);                           //Print noDuplicates
+        System.out.println(noDuplicates.toString().replace("[", "").replace("]", "").replaceAll(",", "").
+                replaceAll(" ", ""));
 
 
     }

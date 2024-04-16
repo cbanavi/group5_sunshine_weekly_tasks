@@ -4,7 +4,9 @@ public class PrimeNumber_Chiyavan {
 
     public static void main(String[] args) {
 
-        System.out.println(primeNumberChecker(5));
+        System.out.println(primeNumberChecker(3));
+        System.out.println(primeNumberChecker(6));
+        System.out.println(primeNumberChecker(7));
 
     }
 
@@ -16,7 +18,7 @@ public class PrimeNumber_Chiyavan {
 
         for (int i = 2; i * i <= n; i++) {
 
-            if (n % i != 0) {
+            if (n % i == 0) {
                 return false;
             }
 
