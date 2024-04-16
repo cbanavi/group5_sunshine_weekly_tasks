@@ -4,24 +4,24 @@ public class ArmstrongNumbers_Chiyavan {
 
     public static void main(String[] args) {
 
-        armstrongChecker(153);
+        armstrongChecker(370);
+        System.out.println(isArmstrongMikailMethod(1634));
+        System.out.println(isArmstrongMikailMethod(-5));
 
     }
 
     public static void armstrongChecker(int n) {
 
-        if (n < 100 || n > 999) {
-            throw new RuntimeException("HAS TO BE 3 DIGITS");
-        }
-
         int digit, remainder, result = 0;
 
         digit = n;
+
 
         while (digit != 0) {
             remainder = digit % 10;
             result += remainder * remainder * remainder;
             digit /= 10;
+
         }
 
         if (result == n) {
@@ -31,6 +31,27 @@ public class ArmstrongNumbers_Chiyavan {
         }
 
 
+    }
+
+    public static boolean isArmstrongMikailMethod(int num){
+
+        if (num < 0) {
+            return false;
+        }
+
+        String number = num + "";
+        int power = number.length();
+        int sum = 0;
+
+        for (int i = 0; i < power; i++) {
+
+            int digit = Integer.parseInt(String.valueOf(number.charAt(i)));
+
+            sum += Math.pow(digit, power);
+
+        }
+
+        return num == sum;
     }
 }
 
