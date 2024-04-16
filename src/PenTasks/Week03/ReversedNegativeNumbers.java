@@ -9,7 +9,6 @@ public class ReversedNegativeNumbers {
         if (num >= 0) {
             System.out.println("Please enter a negative number!");
         }
-
         num = -num;
         int reverse = 0;
         while (num > 0) {
@@ -17,7 +16,7 @@ public class ReversedNegativeNumbers {
             reverse = reverse * 10 + lastDigit;
             num = num / 10;
         }
-        return reverse;
+        return -1*reverse;
     }
 }
 
