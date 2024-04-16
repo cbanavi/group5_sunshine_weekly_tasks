@@ -10,7 +10,6 @@ public class RemoveDuplicates {
 
        String input = new String("AAABBBCCC");
        System.out.println(removeDup(input));
-
     }
     public static String removeDup(String input) {
 
@@ -21,7 +20,6 @@ public class RemoveDuplicates {
         }
         else{
             return collect;
-
         }
     }
     }
