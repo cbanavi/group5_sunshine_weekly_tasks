@@ -11,7 +11,7 @@ public class ArmstrongNumbers {
         int num = input.nextInt();
         input.close();
 
-        System.out.println(num + " is an Armstrong number? : " + ArmstrongNumberUsingWhile(num));
+        System.out.println(num + " is an Armstrong number?  " + ArmstrongNumberUsingWhile(num));
 
     }
     public static boolean ArmstrongNumberUsingWhile(int num) {

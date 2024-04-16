@@ -3,7 +3,7 @@ package faranak.week03;
 public class PrimeNumbers {
 
     public static void main(String[] args) {
-        int n = 2;
+        int n = 5;
         System.out.println(isPrime(n));
     }
     public static boolean isPrime(int n) {

@@ -6,15 +6,16 @@ public class ReverseNegativeNumbers {
         int num = -123;
         System.out.println(num + " is " + reverseNegativeNum(num));
     }
+
     public static int reverseNegativeNum(int num) {
 
         int reverse = 0;
-         while (num!= 0) {
-             int lastDigit = num % 10;
-             reverse = reverse * 10 + lastDigit;   //adds the current digit to the left of the temp variable
-             num /= 10;                            //removes the last digit
+        while (num != 0) {
+            int lastDigit = num % 10;
+            reverse = reverse * 10 + lastDigit;   //adds the current digit to the left of the temp variable
+            num /= 10;                            //removes the last digit
         }
-         return reverse;
+        return reverse;
     }
 }
 
