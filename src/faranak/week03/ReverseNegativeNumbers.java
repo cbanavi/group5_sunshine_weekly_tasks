@@ -3,10 +3,9 @@ package faranak.week03;
 public class ReverseNegativeNumbers {
 
     public static void main(String[] args) {
-        int num = -123;
-        System.out.println(num + " is " + reverseNegativeNum(num));
-    }
 
+        System.out.println(reverseNegativeNum(-123));
+    }
     public static int reverseNegativeNum(int num) {
 
         int reverse = 0;
