@@ -4,7 +4,7 @@ public class PrimeNumbers {
 
     public static void main(String[] args) {
 
-        System.out.println(isPrime(5));
+        System.out.println(isPrime(3));
     }
     public static boolean isPrime(int n) {
         for (int i = 2; i < n; i++) {        //loops through integers from 2 to n

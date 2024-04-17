@@ -4,7 +4,7 @@ public class ReverseNegativeNumbers {
 
     public static void main(String[] args) {
 
-        System.out.println(reverseNegativeNum(-123));
+        System.out.println(reverseNegativeNum(-396));
     }
     public static int reverseNegativeNum(int num) {
 
