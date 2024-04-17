@@ -4,7 +4,7 @@ public class ArmstrongNumbers {
 
     public static void main(String[] args) {
 
-        armstrongChecker(371);
+        System.out.println(armstrongChecker(371));
 
     }
 
@@ -23,7 +23,6 @@ public class ArmstrongNumbers {
 
         while (originalNum != 0) {
             remainder = originalNum % 10;
-            System.out.println("remainder = " + remainder);
             result += (int) Math.pow(remainder, 3);
             originalNum /= 10;
         }
