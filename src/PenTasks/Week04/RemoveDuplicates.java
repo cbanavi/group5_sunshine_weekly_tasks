@@ -36,7 +36,7 @@ String
 Ex: removeDup("AAABBBCCC") ==> ABC
 
  */
-/* My aattempt to use removeIf but it didnt work
+/* My attempt to use removeIf but it didnt work
     public static String removeDup1(String str) {
         // Convert the input string to a list of characters
         List<Character> charList = new ArrayList<>();
