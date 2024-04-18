@@ -15,24 +15,29 @@ package konst.week2;
 public class DivisibleNumbers {
     public static void main(String[] args) {
         System.out.println("Divisible By 15");
-        printDivisibleBy(15);
+        printDivisibleBy(15); // Prints numbers divisible by 15
 
         System.out.println("\n\nDivisible By 5");
-        printDivisibleBy(5);
+        printDivisibleBy(5); // Prints numbers divisible by 5
 
         System.out.println("\n\nDivisible By 3");
-        printDivisibleBy(3);
+        printDivisibleBy(3); // Prints numbers divisible by 3
     }
 
     private static void printDivisibleBy(int divisor) {
+        // Iterates through numbers from 1 to 100
         for (int i = 1; i <= 100; i++) {
+            // Checks if the current number is divisible by the given divisor
             if (i % divisor == 0) {
-                // Exclude numbers divisible by 15 if they've already been printed
+                // Special handling for numbers divisible by 3 and 5:
                 if (divisor == 3 || divisor == 5) {
+                    // Skips if the number is also divisible by 15 (prevents duplicates)
                     if (i % 15 == 0) continue;
                 }
+                // Prints the number followed by a space
                 System.out.print(i + " ");
             }
         }
     }
 }
+

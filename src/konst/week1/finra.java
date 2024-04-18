@@ -9,13 +9,20 @@ public class finra {
     public static void main(String[] args) {
         printFinra();
     }
+
     public static void printFinra() {
+        // Iterate through numbers from 1 to 30
         for (int i = 1; i <= 30; i++) {
-            String output = "";
+            String output = ""; // Initialize an empty output string
+
+            // Check if the number is divisible by 3
             if (i % 3 == 0) output += "FIN";
+
+            // Check if the number is divisible by 5
             if (i % 5 == 0) output += "RA";
+
+            // If output is empty, print the number itself; otherwise, print the built output
             System.out.println(output.isEmpty() ? i : output);
         }
     }
 }
-
