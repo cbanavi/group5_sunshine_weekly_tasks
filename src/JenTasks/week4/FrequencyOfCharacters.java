@@ -57,8 +57,9 @@ public class FrequencyOfCharacters {
 
 }
 /* NOTES for the methods:
- * In the first method:  Starting the count at 0 would reset frequency to 0 for each new character encountered in the outer loop.
- * In the second method: Starting the count at 1 because we accumulate the count for each character throughout the entire string without resetting it for each new character.
+ * In the first method: Starting the count at 1 because we accumulate the count for each character throughout the entire string without resetting it for each new character.
+ * In the second method:  Starting the count at 0 would reset frequency to 0 for each new character encountered in the outer loop.
+
 */
 
 
