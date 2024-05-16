@@ -1,6 +1,9 @@
 package chiyavan.week4;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 
 public class RemoveDuplicates_Chiyavan {
@@ -14,16 +17,23 @@ public class RemoveDuplicates_Chiyavan {
     public static void duplicateChecker(String str) {
 
         char[] originalString = str.toCharArray();          //Create Char array to store each char of the string
-        ArrayList<Character> noDuplicates = new ArrayList<>();      //Initialize an ArrayList
+//        ArrayList<Character> noDuplicates = new ArrayList<>();      //Initialize an ArrayList
+//
+//        for (char each : originalString) {                  //Sort through each char of the string
+//            if (!noDuplicates.contains(each)) {                     //If the arraylist does NOT contain the character from originalString
+//                noDuplicates.add(each);                             // Add to ArrayList
+//            }
+//        }
+//        System.out.println(noDuplicates.toString().replace("[", "").replace("]", "").replaceAll(",", "").
+//                replaceAll(" ", ""));
 
-        for (char each : originalString) {                  //Sort through each char of the string
-            if (!noDuplicates.contains(each)) {                     //If the arraylist does NOT contain the character from originalString
-                noDuplicates.add(each);                             // Add to ArrayList
-            }
+        Set<String> noDuplicates = new HashSet<>();
+        for (char each : originalString) {
+            noDuplicates.addAll(Arrays.asList(String.valueOf(each)));
         }
+
         System.out.println(noDuplicates.toString().replace("[", "").replace("]", "").replaceAll(",", "").
                 replaceAll(" ", ""));
-
 
     }
 
