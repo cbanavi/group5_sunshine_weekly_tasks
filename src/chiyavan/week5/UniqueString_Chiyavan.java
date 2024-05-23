@@ -10,7 +10,6 @@ public class UniqueString_Chiyavan {
 
     public static String Unique(String originalString) {
 
-        Set<Character> set = new HashSet<>();
         StringBuilder uniqueString = new StringBuilder();
 
         for (char each : originalString.toCharArray()) {
