@@ -3,7 +3,7 @@ package chiyavan.week6;
 public class SumOfDigitsInString_Chiyavan {
 
     public static void main(String[] args) {
-        System.out.println(sumOfStringDigits("5abc5"));
+        System.out.println(sumOfStringDigits("5abc5uu5j10"));
     }
 
 
