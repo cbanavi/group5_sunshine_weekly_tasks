@@ -19,3 +19,13 @@
 [RemoveDuplicates](week4/RemoveDuplicates.java) - method that can remove the duplicated values from String.  
 [SameLetters](week4/SameLetters.java) - method that check if a string is build out of the same letters as another string.  
 
+
+### Week 5
+[ReverseString](week5/ReverseString.java) - method that can reverse String.  
+[UniqueString](week5/UniqueString.java) - method that can find the unique characters from the String.
+
+### Week 6
+[MaxNumberInArray](week6/MaxNumberInArray.java) - method that can find the maximum number from an int Array.  
+[PasswordValidation](week6/PasswordValidation.java) - method that can verify if a password is valid or not.  
+[SumOfDigitsInString](week6/SumOfDigitsInString.java) - method that can return the sum of the digits in a string.  
+
