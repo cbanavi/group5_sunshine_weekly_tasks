@@ -12,7 +12,7 @@ public class FrequencyOfCharacters {
 
     public static String frequencyOfChars(String str) {
         // Store character counts (could use an array if only dealing with ASCII)
-        int[] charCounts = new int[256]; // Assuming standard ASCII characters
+        int[] charCounts = new int[256]; // Assuming standard Extended ASCII characters
 
         // Count occurrences of each character
         for (char c : str.toCharArray()) {
