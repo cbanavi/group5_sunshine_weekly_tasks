@@ -1,10 +1,5 @@
 package chiyavan.week6;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.regex.Pattern;
 
 public class PasswordValidation_Chiyavan {
 
@@ -15,7 +10,7 @@ public class PasswordValidation_Chiyavan {
 
     public static void passwordChecker(String originalPassword) {
 
-        boolean atLeast6Char = originalPassword.length() >= 8;
+        boolean atLeast6Char = originalPassword.length() >= 6;
         boolean hasUpperCase = false;
         boolean hasLowerCase = false;
         boolean hasSpecialChar = false;

@@ -9,18 +9,18 @@ public class SumOfDigitsInString_Chiyavan {
 
     static int sumOfStringDigits(String stringDigits) {
         int result = 0;
-        StringBuilder temporary = new StringBuilder("0");
+        String temporary = "0";
 
         for (char each : stringDigits.toCharArray()) {
             if (Character.isDigit(each)) {
-                temporary.append(each);
+                temporary += each;
             } else {
-                result += Integer.parseInt(temporary.toString());
+                result += Integer.parseInt(temporary);
 
-                temporary = new StringBuilder("0");
+                temporary = "0";
             }
         }
-        return result + Integer.parseInt(temporary.toString());
+        return result + Integer.parseInt(temporary);
     }
 
 

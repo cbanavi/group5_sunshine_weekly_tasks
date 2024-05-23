@@ -14,13 +14,10 @@ public class UniqueString_Chiyavan {
         StringBuilder uniqueString = new StringBuilder();
 
         for (char each : originalString.toCharArray()) {
-            set.add(each);
+            if (originalString.indexOf(each) == originalString.lastIndexOf(each)) {
+                uniqueString.append(each);
+            }
         }
-
-        for (char each : set) {
-            uniqueString.append(each);
-        }
-
 
         return uniqueString.toString();
 

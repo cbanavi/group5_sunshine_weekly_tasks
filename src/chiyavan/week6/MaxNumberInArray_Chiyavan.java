@@ -1,7 +1,5 @@
 package chiyavan.week6;
 
-import java.util.Collections;
-
 public class MaxNumberInArray_Chiyavan {
 
     public static void main(String[] args) {
