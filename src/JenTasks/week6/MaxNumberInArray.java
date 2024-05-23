@@ -1,7 +1,4 @@
 package JenTasks.week6;
-
-import java.util.Arrays;
-
 public class MaxNumberInArray {
     public static int findMaximum(int[] arr) {
         if (arr == null || arr.length == 0) {
