@@ -13,7 +13,7 @@ public class ArrayFindMimimum_Chiyavan {
 
         for (int each : originalArray) { //Iterates using for each loop
 
-            if (each < min) { //If each value, the elements in the array, is greater than the first element of the array, then
+            if (each < min) { //If each value, (starting from index 1 since min is index 0), 5, the elements in the array, is less than the first element of the array, 1,  then
                 min = each; //Assign each to min value
             }
 
