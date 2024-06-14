@@ -29,3 +29,8 @@
 [PasswordValidation](week6/PasswordValidation.java) - method that can verify if a password is valid or not.  
 [SumOfDigitsInString](week6/SumOfDigitsInString.java) - method that can return the sum of the digits in a string.  
 
+### Week 7
+[MinNumberInArray](week7/MinNumberInArray.java) - method that can find the minimum number from an int Array.  
+[SortAscendingArray](week7/SortAscendingArray.java) - method that can sort an int array in Ascending order.  
+[SortDescendingArray](week7/SortDescendingArray.java) - return method that can sort an int array in descending order.  
+
