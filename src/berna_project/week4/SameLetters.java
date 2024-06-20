@@ -40,7 +40,7 @@ public class SameLetters {
             }
         }
 
-        // Count occurrences of each letter in the second string
+        // Count each letter in the second string
         for (char c : str2.toCharArray()) {
             if (count2.containsKey(c)) {
                 count2.put(c, count2.get(c) + 1);
