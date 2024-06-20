@@ -2,7 +2,36 @@ package chiyavan.week8;
 
 public class UniqueIntSumZero_Chiyavan {
 
+    public static void main(String[] args) {
+        int[] output = sumZero(10);
 
+        //loops through the output and prints
+        for (int i = 0; i < output.length; i++) {
+            System.out.print(" " + output[i]);
+        }
+
+    }
+
+    public static int[] sumZero(int n) {
+
+        //init an array result of size n with all elements initialized to zero
+        int[] result = new int[n];
+
+        //declares 2 int var,init them to 0 and result.length-1
+        //l represents the leftmost index
+        int l = 0, r = result.length - 1;       // r represents the rightmost index(negative numbers)
+
+        while (l < r) {                         //while l is less than r, do the following:
+
+            result[l] = r;                      //assign the value of r to the element at index l of the result var
+
+            result[r] = -r;                     //assign the value of -r to the element at index r of the result var
+
+            l++;                                //increment the leftmost index by 1
+            r--;                                //decrement the rightmost index by 1
+        }
+        return result;
+    }
 
 }
 
