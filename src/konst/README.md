@@ -30,7 +30,7 @@
 [SumOfDigitsInString](week6/SumOfDigitsInString.java) - method that can return the sum of the digits in a string.  
 
 ### Week 7
-[MinNumberInArray](week7/MinNumberInArray.java) - method that can find the minimum number from an int Array.  
-[SortAscendingArray](week7/SortAscendingArray.java) - method that can sort an int array in Ascending order.  
-[SortDescendingArray](week7/SortDescendingArray.java) - return method that can sort an int array in descending order.  
+[ArrayFindMinimum](week7/ArrayFindMinimum.java) - method that can find the minimum number from an int Array.  
+[ArraySortAscending](week7/ArraySortAscending.java) - method that can sort an int array in Ascending order.  
+[ArraySortDescending](week7/ArraySortDescending.java) - return method that can sort an int array in descending order.  
 
