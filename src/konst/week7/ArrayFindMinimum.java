@@ -5,7 +5,7 @@ Array - Find Minimum
 Write a method that can find the minimum number from an int Array
 */
 
-public class MinNumberInArray {
+public class ArrayFindMinimum {
     public static int findMin(int[] arr) {
 
         int min = arr[0]; // Assume the first element is the maximum
