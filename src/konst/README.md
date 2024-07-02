@@ -34,3 +34,7 @@
 [ArraySortAscending](week7/ArraySortAscending.java) - method that can sort an int array in Ascending order.  
 [ArraySortDescending](week7/ArraySortDescending.java) - return method that can sort an int array in descending order.  
 
+### Week 8
+[MoveZerosToEnd](week8/MoveZerosToEnd.java) - method that can move all the zeros to last indexes of the array.  
+[UniqueIntSumZero](week8/UniqueIntSumZero.java) - function that given an integer N (1 < N < 100), returns an array
+containing N unique integers that sum up to 0.  
