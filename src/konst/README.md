@@ -38,3 +38,8 @@
 [MoveZerosToEnd](week8/MoveZerosToEnd.java) - method that can move all the zeros to last indexes of the array.  
 [UniqueIntSumZero](week8/UniqueIntSumZero.java) - function that given an integer N (1 < N < 100), returns an array
 containing N unique integers that sum up to 0.  
+
+### Week 9
+[ConcatArray](week9/ConcatArray.java) - method that can concat two arrays.  
+[RemoveArrayInts](week9/RemoveArrayInts.java) - function that removes all values greater than 100 from given list of Integers.  
+[RemoveArrayNames](week9/RemoveArrayNames.java) - function that removes all the names named Ahmed from list of names.  
