@@ -30,7 +30,16 @@
 [SumOfDigitsInString](week6/SumOfDigitsInString.java) - method that can return the sum of the digits in a string.  
 
 ### Week 7
-[MinNumberInArray](week7/MinNumberInArray.java) - method that can find the minimum number from an int Array.  
-[SortAscendingArray](week7/SortAscendingArray.java) - method that can sort an int array in Ascending order.  
-[SortDescendingArray](week7/SortDescendingArray.java) - return method that can sort an int array in descending order.  
+[ArrayFindMinimum](week7/ArrayFindMinimum.java) - method that can find the minimum number from an int Array.  
+[ArraySortAscending](week7/ArraySortAscending.java) - method that can sort an int array in Ascending order.  
+[ArraySortDescending](week7/ArraySortDescending.java) - return method that can sort an int array in descending order.  
 
+### Week 8
+[MoveZerosToEnd](week8/MoveZerosToEnd.java) - method that can move all the zeros to last indexes of the array.  
+[UniqueIntSumZero](week8/UniqueIntSumZero.java) - function that given an integer N (1 < N < 100), returns an array
+containing N unique integers that sum up to 0.  
+
+### Week 9
+[ConcatArray](week9/ConcatArray.java) - method that can concat two arrays.  
+[RemoveArrayInts](week9/RemoveArrayInts.java) - function that removes all values greater than 100 from given list of Integers.  
+[RemoveArrayNames](week9/RemoveArrayNames.java) - function that removes all the names named Ahmed from list of names.  
