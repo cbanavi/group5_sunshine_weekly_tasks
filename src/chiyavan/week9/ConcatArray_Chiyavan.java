@@ -6,7 +6,7 @@ public class ConcatArray_Chiyavan {
 
     public static void main(String[] args) {
         String[] test1 = {"This", "Will", "Concat"};
-        String[] test2 = {"Concat", "Two", "Arrays"};
+        String[] test2 = {"All", "Two", "Arrays"};
         concatArrays(test1, test2);
 
 
@@ -17,17 +17,23 @@ public class ConcatArray_Chiyavan {
         int lengthOfArr = firstArr.length + secondArr.length;
         String[] combinedArray = new String[lengthOfArr];
 
+        int index = 0;
+
+        // Copy elements from firstArr to combinedArray
         for (int i = 0; i < firstArr.length; i++) {
-            combinedArray[i] = firstArr[i];
+            combinedArray[index] = firstArr[i];
+            index++;
         }
 
-        for (int j = 0; j < secondArr.length; j++) {
-            combinedArray[firstArr.length] = secondArr[j];
+        // Copy elements from secondArr to combinedArray
+        for (int i = 0; i < secondArr.length; i++) {
+            combinedArray[index] = secondArr[i];
+            index++;
         }
 
         System.out.println("combinedArray = " + Arrays.toString(combinedArray));
-
     }
+
 
 }
 
