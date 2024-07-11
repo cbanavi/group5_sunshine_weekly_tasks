@@ -16,7 +16,7 @@ public class RemoveArrayNames_Chiyavan {
         ArrayList<String> newArrList = new ArrayList<>();
 
         for (String each : originalArrList) {
-            if (!Objects.equals(each, "Ahmed")) {
+            if (!Objects.equals(each, "Ahmed")) { //If the object inside of orignialArrList is NOT "Ahmed", add to new ArrList
                 newArrList.add(each);
             }
         }

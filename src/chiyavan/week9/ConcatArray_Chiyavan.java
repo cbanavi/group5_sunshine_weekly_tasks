@@ -14,20 +14,20 @@ public class ConcatArray_Chiyavan {
 
     public static void concatArrays(String[] firstArr, String[] secondArr) {
 
-        int lengthOfArr = firstArr.length + secondArr.length;
-        String[] combinedArray = new String[lengthOfArr];
+        int lengthOfArr = firstArr.length + secondArr.length; //This is to make sure the new array can hold everything in the other 2 arrays
+        String[] combinedArray = new String[lengthOfArr]; //To add the concatted arrays
 
-        int index = 0;
+        int index = 0; //Easier to use this to add to the combinedArr so it keeps up with the element placing
 
         // Copy elements from firstArr to combinedArray
-        for (int i = 0; i < firstArr.length; i++) {
-            combinedArray[index] = firstArr[i];
-            index++;
+        for (int i = 0; i < firstArr.length; i++) { //Simply adds everything from the firstArr to the combinedArray
+            combinedArray[index] = firstArr[i]; //Adding everything starting at combinedArray[0] from firstArr[0] until length is reached
+            index++; //Will stop once the firstArr.length is reached
         }
 
         // Copy elements from secondArr to combinedArray
         for (int i = 0; i < secondArr.length; i++) {
-            combinedArray[index] = secondArr[i];
+            combinedArray[index] = secondArr[i]; //Starts at the combinedArr[index]  which is where the firstArr.length was reached
             index++;
         }
 

@@ -16,7 +16,7 @@ public class RemoveArrayInts_Chiyavan {
 
         for (Integer each : originalArrList) {
             if (each <= 100) {
-                newArrList.add(each);
+                newArrList.add(each); //If an element of the ArrayList is less than or equal to 100, add to newArrList
             }
         }
 
